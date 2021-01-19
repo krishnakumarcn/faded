@@ -25,7 +25,9 @@ class _FadedState extends State<Faded> {
   }
 
   double getOpacity(String dueDate, int deadline) {
-    final _dueDate = DateTime.parse(dueDate);
+    final _dueDate = DateTime.tryParse(dueDate);
+    if (_dueDate == null) return 1.0;
+
     double opacity = 1.0;
     final now = DateTime.now();
     if (now.isAfter(_dueDate)) {
