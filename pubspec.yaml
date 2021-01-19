@@ -1,7 +1,7 @@
 name: faded
 description: Client did not pay? Add opacity to UI components and decrease it every day until their app completely fades away. Set a due date and customize the number of days you offer them until the app is fully vanished.
-version: 1.0.0
-homepage: https://github.com/krishnakumarcn
+version: 1.0.2
+repository: https://github.com/krishnakumarcn/faded
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
