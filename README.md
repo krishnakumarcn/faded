@@ -21,3 +21,7 @@ And.... Faded! the app is all gone now..
 
 Inspired from github (@kleampa)
 by krishnakumarcn
+
+
+
+[Faded on pub.dev](https://pub.dev/packages/faded)
