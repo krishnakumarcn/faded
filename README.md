@@ -22,6 +22,3 @@ Inspired from [klempa](https://github.com/kleampa)'s [not-paid](https://github.c
 
 by krishnakumarcn
 
-
-
-[Faded on pub.dev](https://pub.dev/packages/faded)
