@@ -18,8 +18,8 @@ And.... Faded! the app is all gone now..
 
 
 ## Author
+Inspired from [klempa](https://github.com/kleampa)'s [not-paid](https://github.com/kleampa/not-paid)
 
-Inspired from github (@kleampa)
 by krishnakumarcn
 
 
