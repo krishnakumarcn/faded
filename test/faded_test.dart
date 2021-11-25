@@ -1,5 +1,4 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:faded/faded.dart';
 
 void main() {
   test('op check', () {
