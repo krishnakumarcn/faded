@@ -1,3 +1,4 @@
+## [1.1.1] - Minor formatting changes
 ## [1.1.0] - Support null safety.
 
 ## [1.0.2] - Minor changes to documentation.
