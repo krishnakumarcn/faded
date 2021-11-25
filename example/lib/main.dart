@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(Faded(
     // Due date should be in yyyy-mm-dd format
-    dueDate: '2021-01-15',
+    dueDate: '2022-01-15',
     daysDeadline: 12,
     child: MyApp(),
   ));
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           title: Text('Faded!'),
         ),
         body: Container(
-          color: Colors.black,
+          color: Colors.red,
           child: Center(
             child: Text(
               "Fade.. fade away...",
