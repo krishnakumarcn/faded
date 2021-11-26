@@ -1,21 +1,24 @@
 import 'package:flutter/material.dart';
 
+/// Creates a widget that can be faded in and out.
+///
+///
+/// [dueDate] is the date you want the widget to fade in and out.
+///
+/// [daysDeadline] is the number of days you want the widget to fade in and out.
+/// It must also equate with the due date you are setting
+///
+/// [child] is the widget to display as the content of this widget.
 class Faded extends StatefulWidget {
-  /// Creates a widget that can be faded in and out.
-  /// The [child] argument must not be null.
-  /// The [opacity] argument must be a value between 0.0 and 1.0, inclusive.
   final String dueDate;
-  /// The dueDate is the date you want the widget to fade in and out.
   final int daysDeadline;
-  /// The daysDeadline is the number of days you want the widget to fade in and out.
-  /// It must also equate with the due date you are setting
   final Widget child;
-  /// The widget to display as the content of this widget.
 
-  const Faded(
-      {required this.dueDate,
-      required this.daysDeadline,
-      required this.child});
+  const Faded({
+    required this.dueDate,
+    required this.daysDeadline,
+    required this.child,
+  });
 
   @override
   State<StatefulWidget> createState() => _FadedState();
@@ -24,8 +27,6 @@ class Faded extends StatefulWidget {
 class _FadedState extends State<Faded> {
   @override
   Widget build(BuildContext context) {
-    /// This function is a container that will fade in and out based on the due date and days deadline.
-    /// It will also display the child widget.
     double opacity = getOpacity(widget.dueDate, widget.daysDeadline);
     return Opacity(
       opacity: opacity,
@@ -33,6 +34,7 @@ class _FadedState extends State<Faded> {
     );
   }
 
+  /// Returns the opacity based on current date, due date and dead line
   double getOpacity(String dueDate, int deadline) {
     final _dueDate = DateTime.tryParse(dueDate);
     if (_dueDate == null) return 1.0;
