@@ -14,11 +14,3 @@ Add opacity to your widgets and decrease it every day until their app completely
 ```
 
 And.... Faded! the app is all gone now..
-
-
-
-## Author
-Inspired from [klempa](https://github.com/kleampa)'s [not-paid](https://github.com/kleampa/not-paid)
-
-by krishnakumarcn
-
