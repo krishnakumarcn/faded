@@ -1,16 +1,16 @@
 name: faded
 description: Client did not pay? Add decreasing opacity to UI components until their app fades away. Set a due date, and no. of days you offer them until the app is fully vanished.
-version: 1.1.1
+version: 2.0.0
 repository: https://github.com/krishnakumarcn/faded
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <=3.4.0'
+  flutter: ">=2.10.5"
 
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
